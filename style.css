@@ -1,0 +1,163 @@
+*{margin: 0; padding: 0}
+.block1 {
+    display:  'block';
+}
+.wrap{
+	width: 800px;
+	margin: auto;
+    left: -20px;
+    top: -150px;
+    position: relative;
+}
+.buttons2{
+    left: 520px;
+    top: -100px;
+    position: relative;
+}
+.tests_block{
+    left: 350px;
+    top: 20px;
+    position: relative;
+    width: 200px; height: 140px;
+    border: 10px double lightgrey;
+    background: #428bca;
+    color: #000000;
+    font-weight: bold;
+    text-autospace: 10px;
+    padding: 2px 0;
+    text-align: center;
+}
+
+.skills_block{
+    left: 570px;
+    top: -142px;
+    position: relative;
+    width: 200px; height: 140px;
+    border: 10px double #f3f3f3;
+    background: #428bca;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my_skills {
+    /*width: 100px; height: 100px;*/
+    padding: 5px 0;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative; left: 20;
+}
+.test-data{
+	border: 10px solid #f3f3f3;
+	padding: 10px;
+	margin: 0 0 20px 0;
+}
+
+.q{
+	border-bottom: 1px solid #000;
+	font-weight: bold;
+
+}
+.a{
+	padding: 5px 0;
+    }
+
+.question{display: none;}
+
+.pagination{
+    margin: 0 30px 0 0;
+	text-align: center;
+    /*height:110;*/
+
+}
+
+.pagination a{
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	padding: 4px 10px;
+	text-decoration: none;
+	background: #fff;
+	color: #428bca;
+	margin: 10 2px 50px 0;
+    font-size: 12pt;
+}
+.pagination a:hover{
+	background: #eee;
+}
+.pagination > a.nav-active {
+    background: #428bca;
+    color: #fff;
+    border-color: #428bca;
+    cursor: default;
+}
+
+.pagination > a.red-active {
+    /*background: darkred;*/
+    color: darkred;
+    border-color: #428bca;
+    cursor: default;
+
+}
+
+.center{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+button.btn{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 6px 12px;
+	text-decoration: none;
+	background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+	color: #000;
+	cursor: pointer;
+	transition: all .3s;
+}
+
+button.btn:hover{
+	background: #dcdcdc linear-gradient(#dcdcdc, #fff);
+	box-shadow: 0 0 2px #aaa;
+}
+
+.none{
+    display: none;
+}
+.last_result
+{
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    display: none;
+}
+
+.last_result1
+{
+    display: none;
+}
+
+.count-res{
+	margin: 0 0 20px 0;
+	border-bottom: 1px dotted #ccc;
+}
+.question-res{
+    border: 1px dotted #ADC092;
+    background: #F0FAF1;
+    color: #58715E;
+    display: none;
+}
+.ok{
+	border: 1px dotted #ADC092;
+	background: #F0FAF1;
+	color: #58715E;
+}
+.error{
+	border: 1px dotted #DDB1B1;
+	background: #FFEDED;
+	color: #7F5354;
+}
+.ok2{
+	color: green;
+}
+.error2{
+	text-decoration: line-through;
+	color: #ff0000;
+}

@@ -1,0 +1,12 @@
+AddDefaultCharset utf-8
+php_flag magic_quotes_gpc Off
+php_value error_reporting 7
+
+FileETag MTime Size
+
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+<IfModule mod_charset.c>
+    CharsetSourceEnc utf-8
+    CharsetDefault utf-8
+</IfModule>
